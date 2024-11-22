@@ -30,8 +30,10 @@ descarga
 sal y entra a termux
 comando:
 # Configurar powerlevel10k
-
+comando:
+```
 p10k configure
+```
 
 ```
 #!/bin/bash
@@ -50,6 +52,9 @@ echo "source ~/.plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 termux-reload-settings
 ```
 # KEYS
+en la ruta
+`~/.termux/termux.properties`
+
 ```
 extra-keys = [['ESC','|','-', {key: HOME, display: 'INC'},'UP',{key: END, display: 'FIN'}, 'APOSTROPHE', {macro: "clear ENTER", display: '×'}],['TAB','CTRL','BACKSLASH','LEFT','DOWN','RIGHT','KEYBOARD','DEL'] ]
 ```
